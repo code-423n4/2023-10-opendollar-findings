@@ -1,0 +1,8 @@
+{
+  "contest": 297,
+  "handle": "Dastan",
+  "risk": "2",
+  "title": "Centralization risk of the privileged functions in the `CamelotRelayer.sol` contract can  perform malicious updates or drain funds.",
+  "issueId": 15,
+  "issueUrl": "https://github.com/code-423n4/2023-10-opendollar-findings/issues/15"
+}
