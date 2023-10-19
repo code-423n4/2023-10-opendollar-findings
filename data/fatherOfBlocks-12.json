@@ -1,0 +1,8 @@
+{
+  "contest": 297,
+  "handle": "fatherOfBlocks",
+  "risk": "2",
+  "title": "DoS due to lack of validation in the constructor",
+  "issueId": 12,
+  "issueUrl": "https://github.com/code-423n4/2023-10-opendollar-findings/issues/12"
+}
