@@ -1,0 +1,8 @@
+{
+  "contest": 297,
+  "handle": "falconhoof",
+  "risk": "3",
+  "title": "Incorrect calculations for Surplus Auction created in AccountingEngine.sol::auctionSurplus() causes massive imbalances",
+  "issueId": 26,
+  "issueUrl": "https://github.com/code-423n4/2023-10-opendollar-findings/issues/26"
+}
