@@ -1,0 +1,8 @@
+{
+  "contest": 297,
+  "handle": "0xWaitress",
+  "risk": "2",
+  "title": "trading of Vault Token is vulnerable for frontrun of maxBorrow, or withdrawal of collateral",
+  "issueId": 20,
+  "issueUrl": "https://github.com/code-423n4/2023-10-opendollar-findings/issues/20"
+}
