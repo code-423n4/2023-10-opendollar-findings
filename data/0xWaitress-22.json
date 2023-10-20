@@ -1,0 +1,8 @@
+{
+  "contest": 297,
+  "handle": "0xWaitress",
+  "risk": "3",
+  "title": "ODPProxy owner can execute arbitrary code through delegateCall including self destruct.",
+  "issueId": 22,
+  "issueUrl": "https://github.com/code-423n4/2023-10-opendollar-findings/issues/22"
+}
