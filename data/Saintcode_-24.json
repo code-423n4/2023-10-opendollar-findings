@@ -1,0 +1,8 @@
+{
+  "contest": 297,
+  "handle": "Saintcode_",
+  "risk": "3",
+  "title": "Missing debt check lets users start a debt auction of non-existent debt",
+  "issueId": 24,
+  "issueUrl": "https://github.com/code-423n4/2023-10-opendollar-findings/issues/24"
+}
