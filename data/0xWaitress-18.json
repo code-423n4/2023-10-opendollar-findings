@@ -1,0 +1,8 @@
+{
+  "contest": 297,
+  "handle": "0xWaitress",
+  "risk": "2",
+  "title": "Camelot Relayer does not work with pairs with a quoteToken of decimal > 18",
+  "issueId": 18,
+  "issueUrl": "https://github.com/code-423n4/2023-10-opendollar-findings/issues/18"
+}
