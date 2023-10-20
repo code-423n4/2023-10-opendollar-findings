@@ -1,0 +1,8 @@
+{
+  "contest": 297,
+  "handle": "0xWaitress",
+  "risk": "3",
+  "title": "GovernorCompatibilityBravo in Openzeppelin 4.8.2 may trim proposal calldata",
+  "issueId": 19,
+  "issueUrl": "https://github.com/code-423n4/2023-10-opendollar-findings/issues/19"
+}
