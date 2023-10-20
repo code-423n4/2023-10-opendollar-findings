@@ -16,7 +16,8 @@ Update function to check address validity using assertNonNull():
 ```diff
   function addAuthorization(address _account) external override(Authorizable, IAuthorizable) isAuthorized whenEnabled {
 -               _addAuthorization(_account);
-+               _addAuthorization(_account.assertNonNull());
++               if (_account == address(0)) revert AccEng_ZeroAddress;
+
           }
 ```
 
@@ -26,9 +27,11 @@ In ```AccountingEngine.sol::auctionDebt()``` after Line 183, which calls ```_set
 
 ### Vulnerability Details
 Imagine the scenario where ```auctionDebt()``` is called and the total unauctioned debt, ```_unqueuedUnauctionedDebt(_debtBalance)```, is reduced to 0 via execution of ```_settleDebt()```
+
 ```
     (_coinBalance, _debtBalance) = _settleDebt(_coinBalance, _debtBalance, _coinBalance);
 ```
+
 Subsequent to execution of ```_settleDebt()```, the system does not check again if ```_params.debtAuctionBidSize > _unqueuedUnauctionedDebt(_debtBalance)``` and then:
 1. increases the value of the state variable ```totalOnAuctionDebt``` by _params.debtAuctionBidSize
 2. creates an auction with debt that doesn't exist (importantly, there is no check either in ```DebtAuctionHouse.sol::startAuction()```
