@@ -1,0 +1,8 @@
+{
+  "contest": 297,
+  "handle": "falconhoof",
+  "risk": "2",
+  "title": "Missing debt check can lead to creation of invalid debt auction",
+  "issueId": 27,
+  "issueUrl": "https://github.com/code-423n4/2023-10-opendollar-findings/issues/27"
+}
