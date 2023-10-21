@@ -1,0 +1,8 @@
+{
+  "contest": 297,
+  "handle": "wei3erHase",
+  "risk": "3",
+  "title": "Change in SafeManager can leave all previous SAFEs untransferrable",
+  "issueId": 37,
+  "issueUrl": "https://github.com/code-423n4/2023-10-opendollar-findings/issues/37"
+}
