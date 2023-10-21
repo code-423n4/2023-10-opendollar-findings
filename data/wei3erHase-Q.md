@@ -1,0 +1,1 @@
+Vault721 checks `nonZero` addresses on setup, consider using `nonZeroBytecode` to avoid setting it up to a wrong non-zero and empty address.
