@@ -1,0 +1,8 @@
+{
+  "contest": 297,
+  "handle": "0xbrett8571",
+  "risk": "3",
+  "title": "ODSafeManager's openSAFE can mint debt before NFT transfer, impacting Vault721.",
+  "issueId": 61,
+  "issueUrl": "https://github.com/code-423n4/2023-10-opendollar-findings/issues/61"
+}
