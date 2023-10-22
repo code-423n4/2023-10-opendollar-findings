@@ -1,0 +1,8 @@
+{
+  "contest": 297,
+  "handle": "0xbrett8571",
+  "risk": "2",
+  "title": "Vault transfer allows debt minting before NFT ownership transfer.",
+  "issueId": 63,
+  "issueUrl": "https://github.com/code-423n4/2023-10-opendollar-findings/issues/63"
+}
