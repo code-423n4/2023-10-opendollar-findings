@@ -1,0 +1,8 @@
+{
+  "contest": 297,
+  "handle": "Stormreckson",
+  "risk": "3",
+  "title": "Loss of SAFE during Movement in `moveSAFE`",
+  "issueId": 91,
+  "issueUrl": "https://github.com/code-423n4/2023-10-opendollar-findings/issues/91"
+}
