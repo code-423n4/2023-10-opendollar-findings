@@ -1,0 +1,8 @@
+{
+  "contest": 297,
+  "handle": "Stormreckson",
+  "risk": "2",
+  "title": "Vault721 isn't fully complaint with ERC721 specifications.",
+  "issueId": 92,
+  "issueUrl": "https://github.com/code-423n4/2023-10-opendollar-findings/issues/92"
+}
