@@ -1,0 +1,8 @@
+{
+  "contest": 297,
+  "handle": "foxb868",
+  "risk": "2",
+  "title": "Writable mappings in Vault721 could be exploited to confuse ownership.",
+  "issueId": 100,
+  "issueUrl": "https://github.com/code-423n4/2023-10-opendollar-findings/issues/100"
+}
