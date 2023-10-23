@@ -1,0 +1,8 @@
+{
+  "contest": 297,
+  "handle": "Krace",
+  "risk": "2",
+  "title": "`addSAFE` should add the `_safe` to the owner, rather than `msg.sender`",
+  "issueId": 79,
+  "issueUrl": "https://github.com/code-423n4/2023-10-opendollar-findings/issues/79"
+}
