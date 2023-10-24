@@ -1,0 +1,8 @@
+{
+  "contest": 297,
+  "handle": "Rickard",
+  "risk": "2",
+  "title": "Risk of locked assets due to use of `mint` instead of OZ `_safeMint`",
+  "issueId": 152,
+  "issueUrl": "https://github.com/code-423n4/2023-10-opendollar-findings/issues/152"
+}
