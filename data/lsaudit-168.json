@@ -1,0 +1,8 @@
+{
+  "contest": 297,
+  "handle": "lsaudit",
+  "risk": "2",
+  "title": "It's possible to call `auctionSurplus()` even when the contract has some unqueued and unactioned debt",
+  "issueId": 168,
+  "issueUrl": "https://github.com/code-423n4/2023-10-opendollar-findings/issues/168"
+}
