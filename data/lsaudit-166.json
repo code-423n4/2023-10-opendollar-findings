@@ -1,0 +1,8 @@
+{
+  "contest": 297,
+  "handle": "lsaudit",
+  "risk": "2",
+  "title": "It's possible to call `auctionDebt()` even when system coin balance is non-zero",
+  "issueId": 166,
+  "issueUrl": "https://github.com/code-423n4/2023-10-opendollar-findings/issues/166"
+}
