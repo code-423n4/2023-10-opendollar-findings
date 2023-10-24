@@ -2,3 +2,5 @@
 baseAmount and quotePeriod  can be packed into 1 slot 
 https://github.com/open-dollar/od-contracts/blob/v1.5.5-audit/src/contracts/oracles/UniV3Relayer.sol#L33#L37.
 
+2.Variable can be marked as immutable to save more gas.
+https://github.com/open-dollar/od-contracts/blob/v1.5.5-audit/src/contracts/oracles/UniV3Relayer.sol#L33#L37.
