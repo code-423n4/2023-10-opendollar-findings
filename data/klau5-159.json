@@ -1,0 +1,8 @@
+{
+  "contest": 297,
+  "handle": "klau5",
+  "risk": "2",
+  "title": "ODSafeManager.enterSystem - Transfer wrong amount of collateral, debt",
+  "issueId": 159,
+  "issueUrl": "https://github.com/code-423n4/2023-10-opendollar-findings/issues/159"
+}
