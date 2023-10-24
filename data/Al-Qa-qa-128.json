@@ -1,0 +1,8 @@
+{
+  "contest": 297,
+  "handle": "Al-Qa-qa",
+  "risk": "2",
+  "title": "Initialization of `SafeManger` contract in` Vault721` contract is allowed to anyone, and it can be initialized by a Malicious contract by an MEV",
+  "issueId": 128,
+  "issueUrl": "https://github.com/code-423n4/2023-10-opendollar-findings/issues/128"
+}
