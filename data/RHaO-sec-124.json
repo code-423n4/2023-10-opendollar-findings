@@ -1,0 +1,8 @@
+{
+  "contest": 297,
+  "handle": "RHaO-sec",
+  "risk": "2",
+  "title": "Function allowHandler() have no check for Zero address while adding a new handler.",
+  "issueId": 124,
+  "issueUrl": "https://github.com/code-423n4/2023-10-opendollar-findings/issues/124"
+}
