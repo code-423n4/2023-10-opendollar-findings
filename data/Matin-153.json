@@ -1,0 +1,8 @@
+{
+  "contest": 297,
+  "handle": "Matin",
+  "risk": "2",
+  "title": "Possibility of cancelling a proposal by front-running the creation of a proposal due to outdated OpenZeppelin version",
+  "issueId": 153,
+  "issueUrl": "https://github.com/code-423n4/2023-10-opendollar-findings/issues/153"
+}
