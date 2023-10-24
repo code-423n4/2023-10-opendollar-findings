@@ -1,0 +1,8 @@
+{
+  "contest": 297,
+  "handle": "Kaysoft",
+  "risk": "2",
+  "title": "`GovernorCompatibilityBravo` may trim proposal calldata",
+  "issueId": 134,
+  "issueUrl": "https://github.com/code-423n4/2023-10-opendollar-findings/issues/134"
+}
