@@ -1,0 +1,8 @@
+{
+  "contest": 297,
+  "handle": "hassan-truscova",
+  "risk": "2",
+  "title": "Oracle tick rounding the wrong direction can lead to Swapper overpaying for swap ",
+  "issueId": 163,
+  "issueUrl": "https://github.com/code-423n4/2023-10-opendollar-findings/issues/163"
+}
