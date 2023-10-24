@@ -1,0 +1,8 @@
+{
+  "contest": 297,
+  "handle": "seerether",
+  "risk": "3",
+  "title": "Vulnerability regarding double counting of debt removal in the popDebtFromQueue function. ",
+  "issueId": 129,
+  "issueUrl": "https://github.com/code-423n4/2023-10-opendollar-findings/issues/129"
+}
