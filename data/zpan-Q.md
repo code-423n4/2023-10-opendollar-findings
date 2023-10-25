@@ -13,7 +13,7 @@ Upgrade OZ to the latest stable version - https://github.com/OpenZeppelin/openze
 
 ### locations
 
-code/package.json#L19-L20
+package.json#L47
 
 ### severity
 
