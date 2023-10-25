@@ -1,0 +1,8 @@
+{
+  "contest": 297,
+  "handle": "HChang26",
+  "risk": "2",
+  "title": "Unauthorized Delegation of `allowSAFE()` Function Leads to Bypassing Owner Oversight",
+  "issueId": 373,
+  "issueUrl": "https://github.com/code-423n4/2023-10-opendollar-findings/issues/373"
+}
