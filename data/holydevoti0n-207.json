@@ -1,0 +1,8 @@
+{
+  "contest": 297,
+  "handle": "holydevoti0n",
+  "risk": "3",
+  "title": "Governor is exploitable due to short voting period settings",
+  "issueId": 207,
+  "issueUrl": "https://github.com/code-423n4/2023-10-opendollar-findings/issues/207"
+}
