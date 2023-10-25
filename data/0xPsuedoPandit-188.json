@@ -1,0 +1,8 @@
+{
+  "contest": 297,
+  "handle": "0xPsuedoPandit",
+  "risk": "2",
+  "title": "Inconsistent state after transferring safe ownership can lead  to potential loss of funds and can break the invariant of the protocol.",
+  "issueId": 188,
+  "issueUrl": "https://github.com/code-423n4/2023-10-opendollar-findings/issues/188"
+}
