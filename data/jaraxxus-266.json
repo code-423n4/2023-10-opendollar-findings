@@ -1,0 +1,8 @@
+{
+  "contest": 297,
+  "handle": "jaraxxus",
+  "risk": "3",
+  "title": "Function _joinCollateral calculates variable wei incorrectly for collateral tokens that do not have 1e18 decimals",
+  "issueId": 266,
+  "issueUrl": "https://github.com/code-423n4/2023-10-opendollar-findings/issues/266"
+}
