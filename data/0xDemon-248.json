@@ -1,0 +1,8 @@
+{
+  "contest": 297,
+  "handle": "0xDemon",
+  "risk": "2",
+  "title": "The delegatecall function does not change the storage in the target contract so the user cannot set the address of a user who can manage SAFE with the allowSafe function",
+  "issueId": 248,
+  "issueUrl": "https://github.com/code-423n4/2023-10-opendollar-findings/issues/248"
+}
