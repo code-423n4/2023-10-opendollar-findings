@@ -1,0 +1,8 @@
+{
+  "contest": 297,
+  "handle": "Arz",
+  "risk": "2",
+  "title": "Some functions cannot be called in ODSafeManager because they are missing in the actions contracts and delegatecall is used",
+  "issueId": 322,
+  "issueUrl": "https://github.com/code-423n4/2023-10-opendollar-findings/issues/322"
+}
