@@ -12,10 +12,9 @@
 
 ## 1. Overview
 > ``Open Dollar`` is a floating $1.00 pegged ``stablecoin`` that is backed by ``Liquid Staking Tokens`` with ``NFT controlled vaults``. It is deployed on the ``Arbitrum`` chain and it is deployed using the ``GEB`` framework and to summarize, the ``GEB`` is a framework that issues ``Stablecoin``. 
-
 The ``Open Dollar`` Stablecoin is usually minted whenever debt is created. ``Open Dollar`` ties the debt created to a ``SAFE`` and the ``SAFE IDs`` is usually linked to an ``NFT ID`` in  the ``NFV``  
-
- Open Dollar eliminates the need for an account based debt system by introducing ``NFT Vaults`` that give room for the creation of ``NFT`` marketplaces and transferring debt using ``NFTs``. 
+    Open Dollar eliminates the need for an account based debt system by introducing ``NFT Vaults`` that give room for the creation of ``NFT`` marketplaces and transferring debt using ``NFTs``. 
+Open Dollar makes provision for a Proxy Factory that is built alongside the Vault721 that makes sure every user have their individual ``Open Dollar`` Proxy
 
 ## 2. Approach taken in evaluating the codebase
 
@@ -65,6 +64,8 @@ Based on an analysis of the protocol's documentation and codebase implementation
 
 ## 6. Time spent on analysis 
 ``30 Hours``
+
+
 
 
 ### Time spent:
