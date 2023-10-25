@@ -1,0 +1,8 @@
+{
+  "contest": 297,
+  "handle": "yashar",
+  "risk": "3",
+  "title": "Protocol integrity is at risk due to an _safeId and NFT token ID mismatch, potentially causing DoS",
+  "issueId": 326,
+  "issueUrl": "https://github.com/code-423n4/2023-10-opendollar-findings/issues/326"
+}
