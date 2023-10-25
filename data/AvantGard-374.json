@@ -1,0 +1,8 @@
+{
+  "contest": 297,
+  "handle": "AvantGard",
+  "risk": "2",
+  "title": "Lack of event emission after updating sensitive contract addresses `safeManager` and `nftRenderer`",
+  "issueId": 374,
+  "issueUrl": "https://github.com/code-423n4/2023-10-opendollar-findings/issues/374"
+}
