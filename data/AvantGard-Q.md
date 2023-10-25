@@ -33,9 +33,9 @@ Implement separate functions & Events to revoke `SAFE` and `HANDLER` permissions
 for reference 
 the `safeEngine.sol` contract uses the following pattern to deny access
 
-`
+```
 function denySAFEModification(address _account) external {
     safeRights[msg.sender][_account] = 0;
     emit DenySAFEModification(msg.sender, _account);
   }
-`
+```
