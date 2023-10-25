@@ -1,0 +1,8 @@
+{
+  "contest": 297,
+  "handle": "btk",
+  "risk": "2",
+  "title": "missing basic action to allow user's to call allowSAFE()",
+  "issueId": 205,
+  "issueUrl": "https://github.com/code-423n4/2023-10-opendollar-findings/issues/205"
+}
