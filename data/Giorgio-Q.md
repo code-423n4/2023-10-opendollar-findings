@@ -2,7 +2,7 @@
 
 ## Description
 
-The `AccountingEngine.sol` contract imports a contract that allows the AccountingEngine.sol to be disabled but cannot be enabled, any authorized address can trigger this state. Consider adding a enable function for more flexibility. 
+The `AccountingEngine.sol` contract imports a contract that allows the `AccountingEngine::addAuthorization` to be disabled but cannot be enabled after that, any authorized address can trigger this state. 
 
 ## Links
 
