@@ -1,0 +1,8 @@
+{
+  "contest": 297,
+  "handle": "Greed",
+  "risk": "3",
+  "title": "Some functions on `ODSafeManager.sol` contract will execute themselves in the context of `ODProxy` and not `ODSafeManager` as they should",
+  "issueId": 263,
+  "issueUrl": "https://github.com/code-423n4/2023-10-opendollar-findings/issues/263"
+}
