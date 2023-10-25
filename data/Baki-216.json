@@ -1,0 +1,8 @@
+{
+  "contest": 297,
+  "handle": "Baki",
+  "risk": "2",
+  "title": "Lack of a contract existence check in `execute` in od proxy might lead to unexpected behaviour",
+  "issueId": 216,
+  "issueUrl": "https://github.com/code-423n4/2023-10-opendollar-findings/issues/216"
+}
