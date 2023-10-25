@@ -1,0 +1,8 @@
+{
+  "contest": 297,
+  "handle": "0x6d6164616e",
+  "risk": "3",
+  "title": "`ONE_HUNDRED_WAD` Can Cause Unintended Behavior in AccountingEngine.sol to auction amount more than intended",
+  "issueId": 206,
+  "issueUrl": "https://github.com/code-423n4/2023-10-opendollar-findings/issues/206"
+}
