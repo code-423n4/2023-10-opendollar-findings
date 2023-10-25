@@ -1,0 +1,8 @@
+{
+  "contest": 297,
+  "handle": "0xAadi",
+  "risk": "3",
+  "title": "`ODSafeManager#allowSAFE()` cannot be executed either by the proxy contract or any other address.",
+  "issueId": 429,
+  "issueUrl": "https://github.com/code-423n4/2023-10-opendollar-findings/issues/429"
+}
