@@ -1,0 +1,8 @@
+{
+  "contest": 297,
+  "handle": "merlin",
+  "risk": "2",
+  "title": "The SAFE Contract: Preventing the Owner from Revoking User Permissions",
+  "issueId": 252,
+  "issueUrl": "https://github.com/code-423n4/2023-10-opendollar-findings/issues/252"
+}
