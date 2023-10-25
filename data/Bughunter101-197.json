@@ -1,0 +1,8 @@
+{
+  "contest": 297,
+  "handle": "Bughunter101",
+  "risk": "2",
+  "title": "`addSAFE()` function does not check the `safeAllowed(_safe)`, however, `removeSAFE()` checks it",
+  "issueId": 197,
+  "issueUrl": "https://github.com/code-423n4/2023-10-opendollar-findings/issues/197"
+}
