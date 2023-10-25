@@ -1,0 +1,8 @@
+{
+  "contest": 297,
+  "handle": "0xmystery",
+  "risk": "2",
+  "title": "Incorrect Parameter in Debt Settlement Vulnerability",
+  "issueId": 296,
+  "issueUrl": "https://github.com/code-423n4/2023-10-opendollar-findings/issues/296"
+}
