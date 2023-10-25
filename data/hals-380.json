@@ -1,0 +1,8 @@
+{
+  "contest": 297,
+  "handle": "hals",
+  "risk": "3",
+  "title": "`ODProxy` contract can't grant `safeRights` (can't change the state of the called contracts) which will disable generating debts functionality",
+  "issueId": 380,
+  "issueUrl": "https://github.com/code-423n4/2023-10-opendollar-findings/issues/380"
+}
