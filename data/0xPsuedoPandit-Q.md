@@ -1,0 +1,3 @@
+https://github.com/open-dollar/od-contracts/blob/f4f0246bb26277249c1d5afe6201d4d9096e52e6/src/contracts/proxies/ODProxy.sol#L26-L36
+
+According to the official Solidity documentation: The low-level delegatecall return true as it's first return value if the account called is non-existent, the execute function does not check whether the contract is an EOA or non-existent, since it's payable so user funds might get stuck, consider using account existent check moreover ODProxy are meant to interact with safes in ODSafeManger, use the check if the user provided address matches with the protocol's contract.
