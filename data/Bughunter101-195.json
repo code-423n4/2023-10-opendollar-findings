@@ -1,0 +1,8 @@
+{
+  "contest": 297,
+  "handle": "Bughunter101",
+  "risk": "3",
+  "title": "`initializeManager()` and `initializeRenderer()` should be call when the contract is deployed",
+  "issueId": 195,
+  "issueUrl": "https://github.com/code-423n4/2023-10-opendollar-findings/issues/195"
+}
