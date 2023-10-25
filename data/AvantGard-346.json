@@ -1,0 +1,8 @@
+{
+  "contest": 297,
+  "handle": "AvantGard",
+  "risk": "3",
+  "title": "Missing access control modifier in `addSAFE()` function allows any address to add arbitrary number of SAFE IDs to themselves",
+  "issueId": 346,
+  "issueUrl": "https://github.com/code-423n4/2023-10-opendollar-findings/issues/346"
+}
