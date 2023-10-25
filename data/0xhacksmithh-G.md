@@ -1,4 +1,4 @@
-### [Gas-0] Use `delete` instead of setting variables to their default value
+### [Gas-01] Use `delete` instead of setting variables to their default value
 ```diff
   function popDebtFromQueue(uint256 _debtBlockTimestamp) external {
     if (block.timestamp < _debtBlockTimestamp + _params.popDebtDelay) revert AccEng_PopDebtCooldown();
@@ -24,7 +24,8 @@ https://github.com/open-dollar/od-contracts/blob/v1.5.5-audit/src/contracts/Acco
 https://github.com/open-dollar/od-contracts/blob/v1.5.5-audit/src/contracts/AccountingEngine.sol#L247-L249
 ```
 
-### [Gas-0] Store state variable in stack memory and use it further [Here i mention those instances which are missing in Bot Report]
+### [Gas-02] Store state variable in stack memory and use it further [Here i mention those instances which are missing in Bot Report]
+#### `_params.debtAuctionBidSize` and `_params.debtAuctionBidSize` could stored in memory and used further.
 ```diff
   function auctionDebt() external returns (uint256 _id) {
 +   uint256 debtAuctionBidSize = _params.debtAuctionBidSize;
@@ -61,6 +62,7 @@ https://github.com/open-dollar/od-contracts/blob/v1.5.5-audit/src/contracts/Acco
 https://github.com/open-dollar/od-contracts/blob/v1.5.5-audit/src/contracts/AccountingEngine.sol#L181
 https://github.com/open-dollar/od-contracts/blob/v1.5.5-audit/src/contracts/AccountingEngine.sol#L176
 ```
+#### State `struct` Variable `_params` could first cached to memory and its property could used further.
 ```diff
 function auctionSurplus() external returns (uint256 _id) {
 +   AccountingEngineParams memory params = _params;
@@ -123,8 +125,24 @@ https://github.com/open-dollar/od-contracts/blob/v1.5.5-audit/src/contracts/Acco
 https://github.com/open-dollar/od-contracts/blob/v1.5.5-audit/src/contracts/AccountingEngine.sol#L230
 https://github.com/open-dollar/od-contracts/blob/v1.5.5-audit/src/contracts/AccountingEngine.sol#L234
 ```
+#### `_proxyRegistry[_proxy]` could stored in memory variable in `mint()` function
+```diff
+  function mint(address _proxy, uint256 _safeId) external {
+    require(msg.sender == address(safeManager), 'V721: only safeManager');
++   address proxy = _proxyRegistry[_proxy];
+-   require(_proxyRegistry[_proxy] != address(0), 'V721: non-native proxy');
+-   address _user = _proxyRegistry[_proxy];
 
-### [Gas-0] Use `switch` case instead of `if-else` condition which is more gas efficient
++   require(proxy != address(0), 'V721: non-native proxy');
++   address _user = proxy;
+    _safeMint(_user, _safeId);
+  }
+```
+```
+https://github.com/open-dollar/od-contracts/blob/v1.5.5-audit/src/contracts/proxies/Vault721.sol#L96-L97
+```
+
+### [Gas-03] Use `switch` case instead of `if-else` condition which is more gas efficient
 ```diff
 function _modifyParameters(bytes32 _param, bytes memory _data) internal override {
     uint256 _uint256 = _data.toUint256();
@@ -153,7 +171,7 @@ https://github.com/open-dollar/od-contracts/blob/v1.5.5-audit/src/contracts/Acco
 
 
 
-### [Gas-0] Store result of arithmatic operation in memory variable and then use further it instaed of calculating same expression again and again
+### [Gas-04] Store result of arithmatic operation in memory variable and then use further it instaed of calculating same expression again and again
 ```diff
   function _getGeneratedDeltaDebt(
     address _safeEngine,
@@ -196,7 +214,7 @@ https://github.com/open-dollar/od-contracts/blob/v1.5.5-audit/src/contracts/prox
 https://github.com/open-dollar/od-contracts/blob/v1.5.5-audit/src/contracts/proxies/actions/BasicActions.sol#L203-L205
 ```
 
-### [Gas-0] Instead of using `var + 1`, use `var++` which is more gas efficient
+### [Gas-05] Instead of using `var + 1`, use `var++` which is more gas efficient
 ```diff
 -    _deltaWad = _deltaWad * RAY < _rad ? _deltaWad + 1 : _deltaWad;
 +    _deltaWad = _deltaWad * RAY < _rad ? _deltaWad++ : _deltaWad;
@@ -205,7 +223,7 @@ https://github.com/open-dollar/od-contracts/blob/v1.5.5-audit/src/contracts/prox
 https://github.com/open-dollar/od-contracts/blob/v1.5.5-audit/src/contracts/proxies/actions/BasicActions.sol#L87
 ```
 
-### [Gas-0] No need to cache function call result when it only used once
+### [Gas-06] No need to cache function call result when it only used once
 ```diff
  internal {
 -   address _safeEngine = ODSafeManager(_manager).safeEngine(); // @audit no need to cache
@@ -265,7 +283,7 @@ https://github.com/open-dollar/od-contracts/blob/v1.5.5-audit/src/contracts/prox
 https://github.com/open-dollar/od-contracts/blob/v1.5.5-audit/src/contracts/proxies/actions/BasicActions.sol#L354
 ```
 
-### [Gas-0] `_safeData[_safes[_i]]` could be cached inside for loop
+### [Gas-07] `_safeData[_safes[_i]]` could be cached inside for loop
 ```diff
 function getSafesData(address _usr)
     external
@@ -288,7 +306,7 @@ function getSafesData(address _usr)
 https://github.com/open-dollar/od-contracts/blob/v1.5.5-audit/src/contracts/proxies/ODSafeManager.sol#L92-L93
 ```
 
-### [Gas-0] Uncheck those operations which will not overflow/underflow
+### [Gas-08] Uncheck those operations which will not overflow/underflow
 ```diff
  function openSAFE(bytes32 _cType, address _usr) external returns (uint256 _id) {
     if (_usr == address(0)) revert ZeroAddress();
@@ -300,26 +318,3 @@ https://github.com/open-dollar/od-contracts/blob/v1.5.5-audit/src/contracts/prox
 https://github.com/open-dollar/od-contracts/blob/v1.5.5-audit/src/contracts/proxies/ODSafeManager.sol#L121
 ```
 
-### [Gas-0]
-```diff
-```
-
-### [Gas-0]
-```diff
-```
-
-### [Gas-0]
-```diff
-```
-
-### [Gas-0]
-```diff
-```
-
-### [Gas-0]
-```diff
-```
-
-### [Gas-0]
-```diff
-```
