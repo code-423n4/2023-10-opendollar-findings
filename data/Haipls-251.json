@@ -1,0 +1,8 @@
+{
+  "contest": 297,
+  "handle": "Haipls",
+  "risk": "2",
+  "title": "Vault721.initializeManager() & Vault721.initializeRenderer()  can be DOS & Front-Running ",
+  "issueId": 251,
+  "issueUrl": "https://github.com/code-423n4/2023-10-opendollar-findings/issues/251"
+}
