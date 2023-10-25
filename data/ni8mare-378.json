@@ -1,0 +1,8 @@
+{
+  "contest": 297,
+  "handle": "ni8mare",
+  "risk": "2",
+  "title": "`initializeRenderer` in `Vault721` can be called by anyone.",
+  "issueId": 378,
+  "issueUrl": "https://github.com/code-423n4/2023-10-opendollar-findings/issues/378"
+}
