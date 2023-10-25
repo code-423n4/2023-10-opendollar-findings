@@ -1,0 +1,8 @@
+{
+  "contest": 297,
+  "handle": "nmirchev8",
+  "risk": "2",
+  "title": "Collateral could be transferred to an address, which is not `SAFEHandler` managed by the `SAFEManager`",
+  "issueId": 267,
+  "issueUrl": "https://github.com/code-423n4/2023-10-opendollar-findings/issues/267"
+}
