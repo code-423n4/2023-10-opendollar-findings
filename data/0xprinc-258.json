@@ -1,0 +1,8 @@
+{
+  "contest": 297,
+  "handle": "0xprinc",
+  "risk": "2",
+  "title": "Fetching of the safes and safeData for a user can be temporarily DOS'ed easily until proper action taken by the user",
+  "issueId": 258,
+  "issueUrl": "https://github.com/code-423n4/2023-10-opendollar-findings/issues/258"
+}
