@@ -1,0 +1,8 @@
+{
+  "contest": 297,
+  "handle": "niki",
+  "risk": "2",
+  "title": "On repaying and taking collateral there is 2 times modifying `tokenCollateral[cType][account/sourse]`this lead to a problem ",
+  "issueId": 282,
+  "issueUrl": "https://github.com/code-423n4/2023-10-opendollar-findings/issues/282"
+}
