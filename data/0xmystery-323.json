@@ -1,0 +1,8 @@
+{
+  "contest": 297,
+  "handle": "0xmystery",
+  "risk": "2",
+  "title": "Decimal Limitation in CamelotRelayer and UniV3Relayer Contract Deployment",
+  "issueId": 323,
+  "issueUrl": "https://github.com/code-423n4/2023-10-opendollar-findings/issues/323"
+}
