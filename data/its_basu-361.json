@@ -1,0 +1,8 @@
+{
+  "contest": 297,
+  "handle": "its_basu",
+  "risk": "3",
+  "title": "SafeID's ownership is not checked properly in `BasicAction.generateDebt()`",
+  "issueId": 361,
+  "issueUrl": "https://github.com/code-423n4/2023-10-opendollar-findings/issues/361"
+}
