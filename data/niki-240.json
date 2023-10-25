@@ -1,0 +1,8 @@
+{
+  "contest": 297,
+  "handle": "niki",
+  "risk": "2",
+  "title": "In repaying `repayDebtAndFreeTokenCollateral` using `_getRepaidDeltaDebt` _coinAmount will alaways be 0 because it is rmoved in CollectAndExitCoins in `_lockTokenCollateralAndGenerateDebt`",
+  "issueId": 240,
+  "issueUrl": "https://github.com/code-423n4/2023-10-opendollar-findings/issues/240"
+}
