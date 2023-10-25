@@ -1,0 +1,8 @@
+{
+  "contest": 297,
+  "handle": "MrPotatoMagic",
+  "risk": "3",
+  "title": "Old permissions in handlerCan mapping are still attached to the safeHandler of a transferred safe",
+  "issueId": 382,
+  "issueUrl": "https://github.com/code-423n4/2023-10-opendollar-findings/issues/382"
+}
