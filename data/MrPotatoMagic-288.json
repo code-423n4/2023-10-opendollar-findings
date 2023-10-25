@@ -1,0 +1,8 @@
+{
+  "contest": 297,
+  "handle": "MrPotatoMagic",
+  "risk": "2",
+  "title": "Missing safeAllowed() modifier on addSAFE() function allows non-owners to add an owner's safe to their list of safes",
+  "issueId": 288,
+  "issueUrl": "https://github.com/code-423n4/2023-10-opendollar-findings/issues/288"
+}
