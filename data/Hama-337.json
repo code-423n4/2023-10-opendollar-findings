@@ -1,0 +1,8 @@
+{
+  "contest": 297,
+  "handle": "Hama",
+  "risk": "2",
+  "title": "Division by Zero Vulnerability in _getGeneratedDeltaDebt Function",
+  "issueId": 337,
+  "issueUrl": "https://github.com/code-423n4/2023-10-opendollar-findings/issues/337"
+}
