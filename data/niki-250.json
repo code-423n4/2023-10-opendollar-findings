@@ -1,0 +1,8 @@
+{
+  "contest": 297,
+  "handle": "niki",
+  "risk": "2",
+  "title": "at `_modifyCollateralBalance` when locking and generating debt your wad is going to be negative number but at the token Collateral mapping should not have any negative numbers",
+  "issueId": 250,
+  "issueUrl": "https://github.com/code-423n4/2023-10-opendollar-findings/issues/250"
+}
