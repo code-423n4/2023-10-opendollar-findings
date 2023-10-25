@@ -1,0 +1,8 @@
+{
+  "contest": 297,
+  "handle": "jaraxxus",
+  "risk": "2",
+  "title": "ODProxy lacks a fallback function to receive native token",
+  "issueId": 278,
+  "issueUrl": "https://github.com/code-423n4/2023-10-opendollar-findings/issues/278"
+}
