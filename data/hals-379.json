@@ -1,0 +1,8 @@
+{
+  "contest": 297,
+  "handle": "hals",
+  "risk": "2",
+  "title": "The protocol uses a vulnerable `GovernorCompatibilityBravo` version",
+  "issueId": 379,
+  "issueUrl": "https://github.com/code-423n4/2023-10-opendollar-findings/issues/379"
+}
