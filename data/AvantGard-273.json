@@ -1,0 +1,8 @@
+{
+  "contest": 297,
+  "handle": "AvantGard",
+  "risk": "2",
+  "title": "AllowSAFE & AllowHandler events can be triggered without actually allowing intended addresses",
+  "issueId": 273,
+  "issueUrl": "https://github.com/code-423n4/2023-10-opendollar-findings/issues/273"
+}
