@@ -1,0 +1,8 @@
+{
+  "contest": 297,
+  "handle": "Bughunter101",
+  "risk": "2",
+  "title": "`allowSAFE()` function dose not check the `msg.sender == _safeData[_safe].owner`",
+  "issueId": 194,
+  "issueUrl": "https://github.com/code-423n4/2023-10-opendollar-findings/issues/194"
+}
