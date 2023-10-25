@@ -1,0 +1,8 @@
+{
+  "contest": 297,
+  "handle": "hals",
+  "risk": "2",
+  "title": "No check on the SAFEs collateral types if matching when moving SAFE collateral and debt",
+  "issueId": 375,
+  "issueUrl": "https://github.com/code-423n4/2023-10-opendollar-findings/issues/375"
+}
