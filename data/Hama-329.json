@@ -1,0 +1,8 @@
+{
+  "contest": 297,
+  "handle": "Hama",
+  "risk": "2",
+  "title": "Inconsistent Handling of Collateral and Debt in removeSAFE Function",
+  "issueId": 329,
+  "issueUrl": "https://github.com/code-423n4/2023-10-opendollar-findings/issues/329"
+}
