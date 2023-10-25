@@ -1,0 +1,8 @@
+{
+  "contest": 297,
+  "handle": "0xlemon",
+  "risk": "3",
+  "title": "ODProxy uses delegatecall which conflicts with the ODSafeManager's logic",
+  "issueId": 241,
+  "issueUrl": "https://github.com/code-423n4/2023-10-opendollar-findings/issues/241"
+}
