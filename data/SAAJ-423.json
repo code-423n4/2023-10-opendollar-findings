@@ -1,0 +1,8 @@
+{
+  "contest": 297,
+  "handle": "SAAJ",
+  "risk": "2",
+  "title": "Lack of Reentrancy guard on auctionSurplus() function",
+  "issueId": 423,
+  "issueUrl": "https://github.com/code-423n4/2023-10-opendollar-findings/issues/423"
+}
