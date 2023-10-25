@@ -1,0 +1,8 @@
+{
+  "contest": 297,
+  "handle": "invitedtea",
+  "risk": "3",
+  "title": "Since the build function in 'Vault721' allows anyone to deploy a new ODProxy for any user without proper checks, it creates a potential exploit.",
+  "issueId": 412,
+  "issueUrl": "https://github.com/code-423n4/2023-10-opendollar-findings/issues/412"
+}
