@@ -1,0 +1,8 @@
+{
+  "contest": 297,
+  "handle": "RHaO-sec",
+  "risk": "3",
+  "title": "Use Two step ownership claim while transferring Safe ownerShip in ODSafeManager.sol",
+  "issueId": 199,
+  "issueUrl": "https://github.com/code-423n4/2023-10-opendollar-findings/issues/199"
+}
