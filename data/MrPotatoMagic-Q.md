@@ -12,6 +12,7 @@
 | [L-01]    | Image field does not point to an image but the testnet website                                                                         | 1         |
 | [L-02]    | Missing check in constructor to see if quotePeriod is not zero                                                                         | 1         |
 | [L-03]    | Missing cardinality check in function read()                                                                                           | 1         |
+| [L-04]    | Rounding down in `_exitCollateral()` function can cause loss of precision leading to loss of funds for users                              | 1         |
 | [R-01]    | Consider modifying the build() function which allows anyone to create an ODProxy for any user                                          | 1         |
 | [R-02]    | Use `user` instead of `usr` in mappings to improve readability                                                                         | 2         |
 | [R-03]    | Use `safeAllow` and `handlerAllow` instead of `safeCan` and `handlerCan` to better match the intention of the mappings                 | 2         |
@@ -20,9 +21,9 @@
 **Note: N = Non-Critical, L = Low-severity, R = Recommendation**
 
 ### Total Non-Critical issues: 21 instances across 7 issues
-### Total Low-severity issues: 3 instances across 3 issues
+### Total Low-severity issues: 4 instances across 4 issues
 ### Total Recommendations: 6 instances across 4 issues
-### Total QA issues: 30 instances across 14 issues
+### Total QA issues: 31 instances across 15 issues
 
 ## [N-01] Public variable not used in external contracts can be marked private/internal
 
@@ -396,6 +397,21 @@ File: CamelotRelayer.sol
 83:     // Process the quote result to 18 decimal quote
 84:     _result = _parseResult(_quoteAmount);
 85:   }
+```
+
+## [L-04] Rounding down in _exitCollateral() function can cause loss of precision leading to loss of funds for users
+
+There is 1 instance of this issue:
+
+https://github.com/open-dollar/od-contracts/blob/f4f0246bb26277249c1d5afe6201d4d9096e52e6/src/contracts/proxies/actions/CommonActions.sol#L118
+
+In the function [_exitCollateral()](https://github.com/open-dollar/od-contracts/blob/f4f0246bb26277249c1d5afe6201d4d9096e52e6/src/contracts/proxies/actions/CommonActions.sol#L118), users can experience loss of funds if the wad amount is smaller than the decimals representation in the denominator.
+
+The below code snippet is from the CommonActions.sol contract is inherited in the BasicActions.sol contract. This _exitCollateral() function is called when the freeTokenCollateral() function in the BasicActions.sol contract is called. This function does the operation below based on the decimals of the ERC20 token being used. In case the numerator i.e. the _wad amount is smaller than the denominator, the final _weiAmount rounds down to zero. This can lead to loss of funds for the user who tries to exit with his collateral.
+```solidity
+File: CommonActions.sol
+118:     uint256 _weiAmount = _wad / 10 ** (18 - _decimals);
+119:     __collateralJoin.exit(msg.sender, _weiAmount);
 ```
 
 ## [R-01] Consider modifying the build() function which allows anyone to create an ODProxy for any user
