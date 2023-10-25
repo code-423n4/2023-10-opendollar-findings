@@ -1,0 +1,8 @@
+{
+  "contest": 297,
+  "handle": "Arz",
+  "risk": "2",
+  "title": "The CamelotRelayer does not work with the Uniswap OracleLibrary",
+  "issueId": 388,
+  "issueUrl": "https://github.com/code-423n4/2023-10-opendollar-findings/issues/388"
+}
