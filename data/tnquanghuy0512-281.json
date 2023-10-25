@@ -1,0 +1,8 @@
+{
+  "contest": 297,
+  "handle": "tnquanghuy0512",
+  "risk": "2",
+  "title": "Wrong WAD calculation in AccountingEngine contract leading to start auction with selling amount minimum 100 time bigger than expected",
+  "issueId": 281,
+  "issueUrl": "https://github.com/code-423n4/2023-10-opendollar-findings/issues/281"
+}
