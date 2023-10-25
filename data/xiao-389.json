@@ -1,0 +1,8 @@
+{
+  "contest": 297,
+  "handle": "xiao",
+  "risk": "2",
+  "title": " Integer Overflow Risk in Financial Calculation",
+  "issueId": 389,
+  "issueUrl": "https://github.com/code-423n4/2023-10-opendollar-findings/issues/389"
+}
