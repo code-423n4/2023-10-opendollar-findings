@@ -1,0 +1,8 @@
+{
+  "contest": 297,
+  "handle": "0xprinc",
+  "risk": "3",
+  "title": "All functions in `ODSafeManager.sol` related to `handlerAllowed` modifier can never be called.",
+  "issueId": 414,
+  "issueUrl": "https://github.com/code-423n4/2023-10-opendollar-findings/issues/414"
+}
