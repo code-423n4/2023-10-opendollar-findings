@@ -1,0 +1,8 @@
+{
+  "contest": 297,
+  "handle": "DavidLivestrong",
+  "risk": "3",
+  "title": "Wrong validation check for caller of some functions",
+  "issueId": 227,
+  "issueUrl": "https://github.com/code-423n4/2023-10-opendollar-findings/issues/227"
+}
