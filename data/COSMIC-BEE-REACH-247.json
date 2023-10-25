@@ -1,0 +1,8 @@
+{
+  "contest": 297,
+  "handle": "COSMIC-BEE-REACH",
+  "risk": "2",
+  "title": "Lack of Restriction on Safe Manager Modifications allows Safe Manager to add other Safe Manager!!!",
+  "issueId": 247,
+  "issueUrl": "https://github.com/code-423n4/2023-10-opendollar-findings/issues/247"
+}
