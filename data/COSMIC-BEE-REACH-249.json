@@ -1,0 +1,8 @@
+{
+  "contest": 297,
+  "handle": "COSMIC-BEE-REACH",
+  "risk": "2",
+  "title": "Owner wont be able to enter system in ODSafeManager.sol because design flaw in `allowHandler function`",
+  "issueId": 249,
+  "issueUrl": "https://github.com/code-423n4/2023-10-opendollar-findings/issues/249"
+}
