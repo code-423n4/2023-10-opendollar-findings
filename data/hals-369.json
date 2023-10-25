@@ -1,0 +1,8 @@
+{
+  "contest": 297,
+  "handle": "hals",
+  "risk": "3",
+  "title": "`ODGovernor.propose` function: anyone with zero voting weight can add proposals",
+  "issueId": 369,
+  "issueUrl": "https://github.com/code-423n4/2023-10-opendollar-findings/issues/369"
+}
