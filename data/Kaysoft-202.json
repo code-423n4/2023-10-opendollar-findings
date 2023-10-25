@@ -1,0 +1,8 @@
+{
+  "contest": 297,
+  "handle": "Kaysoft",
+  "risk": "2",
+  "title": "Due to extremely short `votingDelay` and `votingPeriod`, governance is practically impossible.",
+  "issueId": 202,
+  "issueUrl": "https://github.com/code-423n4/2023-10-opendollar-findings/issues/202"
+}
