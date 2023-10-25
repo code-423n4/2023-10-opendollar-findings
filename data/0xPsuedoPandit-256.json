@@ -1,0 +1,8 @@
+{
+  "contest": 297,
+  "handle": "0xPsuedoPandit",
+  "risk": "3",
+  "title": "Delegating the call from ODProxy will make the changes in the context of ODProxy's storage layer which breaks the invariant.",
+  "issueId": 256,
+  "issueUrl": "https://github.com/code-423n4/2023-10-opendollar-findings/issues/256"
+}
