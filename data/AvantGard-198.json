@@ -1,0 +1,8 @@
+{
+  "contest": 297,
+  "handle": "AvantGard",
+  "risk": "2",
+  "title": "Allowing anyone to create proxies for other addresses may be exploited to create a temporary DOS ",
+  "issueId": 198,
+  "issueUrl": "https://github.com/code-423n4/2023-10-opendollar-findings/issues/198"
+}
