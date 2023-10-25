@@ -1,0 +1,8 @@
+{
+  "contest": 297,
+  "handle": "Shubham",
+  "risk": "2",
+  "title": "Increasing size of `debtQueue` can lead to out of gas error when pushing/popping debt to/from queue resulting in incorrect function outcomes",
+  "issueId": 242,
+  "issueUrl": "https://github.com/code-423n4/2023-10-opendollar-findings/issues/242"
+}
