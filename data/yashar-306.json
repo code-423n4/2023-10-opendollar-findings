@@ -1,0 +1,8 @@
+{
+  "contest": 297,
+  "handle": "yashar",
+  "risk": "3",
+  "title": "Front-running the Vault721.sol::build(address _user) can DoS the protocol for new users",
+  "issueId": 306,
+  "issueUrl": "https://github.com/code-423n4/2023-10-opendollar-findings/issues/306"
+}
